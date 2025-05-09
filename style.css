@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Button Styles */
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Image Gallery Styles */
+.image-gallery {
+    display: flex;
+    justify-content: space-around; /* Spreads the images evenly */
+    align-items: center; /* Aligns the images vertically */
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 100px; /* Reduced size of the images */
+    height: 100px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    margin: 5px;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Section Title */
+h2 {
+    color: #333;
+}
+
+/* Intro Text */
+#intro-text {
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Fun Fact */
+#funFact {
+    margin-top: 10px;
+    color: #666;
+    font-style: italic;
+}
